@@ -249,6 +249,8 @@ margin-right: 30px;
 img {
   display: block;
   max-width: 100%;
+  width: 270px;
+  height: 260px;
 }
 .cards-staff {
 display: flex;
@@ -378,9 +380,11 @@ border-radius: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: start;
   color: var(--primary-text-color);
 }
 .text-about-img {
+  text-align: start;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
@@ -399,7 +403,6 @@ flex-wrap: wrap;
 padding-bottom: 94px;
 margin-left: -30px;
 margin-top: -30px;
-text-align: center;
 padding-top: 56px;
 }
 .card-item {
@@ -407,5 +410,5 @@ border: 1px solid #eee;
 box-sizing: border-box;
 margin-left: 30px;
 margin-top: 30px;
-flex-basis:  ( (100% - 3 * 30px) / 3);
+flex-basis: ( (100% - 3 * 30px) / 3);
 }
