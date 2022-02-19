@@ -346,12 +346,16 @@ margin-bottom: 9px;
 .portfolio-buttons {
   cursor: pointer;
   background-color: var(--background-second-composite);
-   margin-right: 8px;
   border-radius: 4px;
-  }
+    }
 .buttons-list {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   }
+  .buttons {
+    display: inline-block;
+    margin-right: 8px;
+     }
 .portfolio-buttons:first-child {
   margin-left: 0;
 }
@@ -378,11 +382,9 @@ border-radius: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  text-align: start;
   color: var(--primary-text-color);
 }
 .text-about-img {
-  text-align: start;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
@@ -402,9 +404,9 @@ margin-top: -30px;
 padding-top: 56px;
 }
 .card-item {
-border: 1px solid #eee;
-box-sizing: border-box;
 margin-left: 30px;
 margin-top: 30px;
-flex-basis: calc( (100% - 90px) / 3);
+flex-basis: calc( (100% - 3 * 30px) / 3);
+border: 1px solid #eee;
+box-sizing: border-box;
 }
