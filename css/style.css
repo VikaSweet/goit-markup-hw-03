@@ -249,9 +249,7 @@ margin-right: 30px;
 img {
   display: block;
   max-width: 100%;
-  width: 270px;
-  height: 260px;
-}
+  }
 .cards-staff {
 display: flex;
 flex-wrap: wrap;
@@ -394,9 +392,7 @@ border-radius: 4px;
 img {
   display: block;
   max-width: 100%;
-  width: 370px;
-  height: 294px;
-}
+    }
 .cards-portfolio {
 display: flex;
 flex-wrap: wrap;
@@ -410,5 +406,5 @@ border: 1px solid #eee;
 box-sizing: border-box;
 margin-left: 30px;
 margin-top: 30px;
-flex-basis: calc( (100% - 3 * 30px) / 3);
+flex-basis: calc( (100% - 90px) / 3);
 }
