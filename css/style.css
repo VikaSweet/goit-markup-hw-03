@@ -390,6 +390,8 @@ border-radius: 4px;
 img {
   display: block;
   max-width: 100%;
+  width: 370px;
+  height: 294px;
 }
 .cards-portfolio {
 display: flex;
