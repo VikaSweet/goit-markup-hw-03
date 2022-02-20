@@ -157,6 +157,7 @@ text-align: center;
 }
 
 .button-order {
+  min-width: 200px;
   cursor: pointer;
   background-color: var(--accent-color);
 margin-bottom: 200px;
@@ -165,8 +166,7 @@ margin-right: auto;
   border-radius: 4px;
 }
 .text-button-order {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -198,12 +198,15 @@ margin-right: auto;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: start;
   }
 .text-about {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  text-align: start;
 }
 
 /*--our-work----------*/
@@ -253,11 +256,13 @@ img {
 .cards-staff {
 display: flex;
 flex-wrap: wrap;
+justify-content: center;
 margin-left: -30px;
 margin-top: -30px;
 padding-bottom: 94px;
 }
 .staff-item {
+  max-width: 270px;
 margin-left: 30px;
 margin-top: 30px;
 flex-basis: calc( (100% - 4 * 30px) / 4);
@@ -265,6 +270,7 @@ border: 1px solid #ffffff;
 box-sizing: border-box;
 border-bottom-left-radius: 4px;
 border-bottom-right-radius: 4px;
+background-color: var(--background-origin);
 }
 .title-name {
   padding-top: 30px;
@@ -405,6 +411,7 @@ margin-top: -30px;
 padding-top: 56px;
 }
 .card-item {
+  max-width: 370px;
 margin-left: 30px;
 margin-top: 30px;
 flex-basis: calc( (100% - 3 * 30px) / 3);
