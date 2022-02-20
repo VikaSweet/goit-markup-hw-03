@@ -71,45 +71,48 @@ border-bottom: 1px solid rgb(236, 236, 236, 1);
   color: var(--accent-color);
 }
 .nav-list {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
+  
 }
  .nav-link {
-display: inline-block;
- } 
+display: inline-flex;
+justify-content: center;
+}
 .logo-link {
-  display: inline-block;
-width: 145px;
+  display: inline-flex;
+min-width: 145px;
 margin-right: 93px;
 margin-left: 0;
 padding-top: 24px;
 padding-bottom: 25px;
 }
 .item-studio {
-width: 49px;
+min-width: 49px;
 margin-right: 50px;
 padding-top: 32px;
 padding-bottom: 32px;
 }
 .item-portfolio {
-  width: 77px;
+  min-width: 77px;
   margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .item-contacts {
-  width: 68px;
+ min- width: 68px;
   margin-right: 331px;
     padding-top: 32px;
   padding-bottom: 32px;
 }
 .item-e-mail  {
-  width: 135px;
+ min- width: 135px;
   margin-right: 50px;
     padding-top: 32px;
   padding-bottom: 32px;
 }
 .item-phone {
-  width: 122px;
+  min-width: 122px;
   margin-right: 0;
     padding-top: 32px;
   padding-bottom: 32px;
@@ -303,7 +306,19 @@ background-color: var(--background-origin);
 .footer-menu {
 display: flex;
 flex-direction: column;
+justify-content: lef;
 }
+
+.footer-link {
+  display: inline-flex;
+}
+.footer-link:hover {
+  color: var(--accent-color);
+}
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
 .logo-footer {
   display: block;
   padding-left: 40px;
@@ -405,6 +420,7 @@ img {
 .cards-portfolio {
 display: flex;
 flex-wrap: wrap;
+justify-content: center;
 padding-bottom: 94px;
 margin-left: -30px;
 margin-top: -30px;
