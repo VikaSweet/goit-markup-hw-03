@@ -308,13 +308,17 @@ background-color: var(--background-origin);
   padding-top: 60px;
   padding-bottom: 60px;
   }
+  .footer-container {
+display: flex;
+flex-direction: column;
+  }
   .footer-logo-link {
     display: flex;
     flex-direction: column;
 align-items: lef;
 margin-bottom: 20px;
   }
-.footer-menu {
+.footer-contacts {
 display: flex;
 flex-direction: column;
 justify-content: lef;
@@ -373,11 +377,11 @@ margin-bottom: 9px;
 .buttons-list {
 display: flex;
 justify-content: center;
+margin-bottom: 50px;
         }
         .buttons {
          margin-right: 8px;
-          padding-bottom: 50px;
-                     }
+            }
       .portfolio-buttons:first-child {
         margin-left: 0;
       }
@@ -441,6 +445,7 @@ display: flex;
 flex-wrap: wrap;
 margin-left: -30px;
 margin-top: -30px;
+
 }
 .card-item {
 width: 370px;
@@ -451,5 +456,6 @@ box-sizing: border-box;
 }
 .border-card {
   border: 1px solid #eee;
-}
+  padding: 20px 24px;
+  }
 /*--The-end-of-page--*/
